@@ -226,7 +226,7 @@ export default class DateTimePicker extends Component {
     } = this.props;
 
     return (
-      <div style={{ ...styles.container, style }} className={this.props.className}>
+      <div style={{ ...styles.container, ...style }} className={this.props.className}>
         <TextField
           onFocus={this.handleFocus}
           className={textFieldClassName}
